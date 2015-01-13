@@ -57,6 +57,7 @@ public class JacksonMapper implements Mapper {
     public static class Builder extends AbstractMappingBuilder<Builder> {
 
         private QueryFactory queryFactory;
+
         private ObjectIdUpdater objectIdUpdater;
 
         public Builder() {
@@ -93,4 +94,5 @@ public class JacksonMapper implements Mapper {
             return this;
         }
     }
+
 }
